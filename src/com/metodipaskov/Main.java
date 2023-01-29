@@ -93,6 +93,7 @@ public class Main {
             for (Location location : locations) {
                 if (location.getLocationId() == locationId) {
                     location.addExist(direction, nextLocation);
+                    break;
                 }
             }
         }
